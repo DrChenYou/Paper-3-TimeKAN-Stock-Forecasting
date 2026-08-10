@@ -1,0 +1,25 @@
+seed: 42
+data:
+  features: [Open, Close, High, Low, Volume, Change]
+  target: Close
+  input_length: 60
+  forecast_length: 20
+  train_fraction: 0.70
+  validation_fraction: 0.15
+model:
+  decomposition_layers: 4
+  frequency_bands: 5
+  chebyshev_order: 3
+  attention_heads: 8
+  d_model: 64
+  minimum_window: 3
+  maximum_window: 15
+  dropout: 0.1
+  head_dropout: 0.2
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  minimum_learning_rate: 0.000001
+  maximum_epochs: 200
+  early_stopping_patience: 20
+  weight_decay: 0.0

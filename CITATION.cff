@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated Scientific Reports article."
+title: "TimeKAN: Adaptive Frequency-Decomposed KAN for Stock Forecasting"
+type: software
+authors:
+  - family-names: Chen
+    given-names: You
+version: 0.1.0
+license: MIT
+keywords:
+  - time-series forecasting
+  - Kolmogorov-Arnold network
+  - frequency decomposition
+  - stock forecasting
+  - deep learning
+preferred-citation:
+  type: article
+  title: "TimeKAN: an adaptive frequency-decomposed Kolmogorov-Arnold network for long-term stock forecasting"
+  authors:
+    - family-names: Cao
+      given-names: Jinfei
+    - family-names: Dong
+      given-names: Zheru
+    - family-names: Xu
+      given-names: Haoyi
+    - family-names: Liu
+      given-names: Xiaoou
+    - family-names: Chen
+      given-names: You
+  journal: Scientific Reports
+  year: 2026
+  month: 6
+  day: 30
+  doi: 10.1038/s41598-026-59107-4
+  url: "https://doi.org/10.1038/s41598-026-59107-4"
